@@ -163,6 +163,9 @@ vmap  <expr>  <DOWN>   DVB_Drag('down')
 vmap  <expr>  <UP>     DVB_Drag('up')
 vmap  <expr>  D        DVB_Duplicate()
 
+" Remove any introduced trailing whitespace after moving...
+let g:DVB_TrimWS = 1
+
 "====[ listtrans.vim ]===============
 nmap  ;l   :call ListTrans_toggle_format()<CR>
 vmap  ;l   :call ListTrans_toggle_format('visual')<CR>
